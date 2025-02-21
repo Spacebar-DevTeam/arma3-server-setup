@@ -24,22 +24,22 @@ class CfgFunctions
 	{
 		class main
 		{
-			file = "\a3_dms\DMS"; // Updated path
+			file = "\a3_dms"; // Updated to reflect the new flat directory structure
 			class DMS_preInit
 			{
 				preInit = 1;
-				file = "\a3_dms\DMS\fn_DMS_preInit.sqf"; // Updated path
+				file = "\a3_dms\fn_DMS_preInit.sqf"; // Corrected path
 			};
 			class DMS_postInit
 			{
 				postInit = 1;
-				file = "\a3_dms\DMS\fn_DMS_postInit.sqf"; // Updated path
+				file = "\a3_dms\fn_DMS_postInit.sqf"; // Corrected path
 			};
 		};
 
 		class compiles
 		{
-			file = "\a3_dms\DMS\scripts"; // Updated path
+			file = "\a3_dms\scripts"; // Corrected path
 			class AddMissionToMonitor{};
 			class AddMissionToMonitor_Static{};
 			class AddWeapon{};
