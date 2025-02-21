@@ -1,0 +1,5 @@
+//<'a3_exile_occupation.pbo' properties via Mikero's dos tools, dll version 9.89>
+pboprefix=x\addons\a3_exile_occupation;
+prefix=x\addons\a3_exile_occupation;
+//PboType=Arma Addon;
+//</properties>
